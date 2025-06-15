@@ -9,7 +9,9 @@ h1 {
     text-align: center;
     font-size: 70px;
 }
-img {
-    display: block;
-    justify-content: center;
+
+.i {
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center;     /* Вертикальное выравнивание по центру (опционально) */
 }
